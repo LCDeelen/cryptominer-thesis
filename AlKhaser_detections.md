@@ -1,5 +1,7 @@
+The check marks in the table below show all [Al-Khaser](https://github.com/LordNoteworthy/al-khaser) techniques that successfully detected the VMs.
+
 | Al-Khaser test                                                                   | VM, no mitigation | Only driver | Driver & script, base VM | Driver & script, linked clone |
-|----------------------------------------------------------------------------------|-------------------|-------------|--------------------------|-------------------------------|
+|----------------------------------------------------------------------------------|:------------------:|:-----------:|:------------------------:|:-----------------------------:|
 | Checking Software Breakpoints                                                    |         ✔         |      ✔      |             ✔            |               ✔               |
 | Checking NtYieldExecution                                                        |         ✔         |      ✘      |             ✘            |               ✔               |
 | Checking Number of processors in machine                                         |         ✔         |      ✘      |             ✘            |               ✘               |
